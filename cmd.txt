@@ -1,0 +1,29 @@
+
+git clone https://github.com/mithridatem/ex5tssr.git
+cd ex5tssr/
+touch index.html
+git add index.html 
+git commit -m "feat: add index.html"
+git push origin main
+mkdir asset asset/css asset/js asset/media
+touch asset/css/main.css asset/js/main.js asset/media/profil.png
+git add *
+git commit -m "feat: Ajout de la structure du projet"
+git push origin main
+nano index.html 
+git add index.html 
+git commit -m "feat: Edition du fichier index.html”"
+git push origin main
+git push origin main
+git pull origin main
+echo '<h3>modif</h3>'>> index.html 
+git add index.html 
+git commit -m "feat: update index.html"
+git push origin main
+git pull origin main
+touch nouveau.txt
+git commit -m "feat: add nouveau.txt"
+git add *
+git commit -m "feat: add nouveau.txt"
+git push origin main
+
